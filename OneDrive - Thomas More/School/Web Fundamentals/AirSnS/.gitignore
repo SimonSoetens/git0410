@@ -1,4 +1,4 @@
-# Uitsluiten van systeem- en tijdelijke bestanden
+# Algemene systeem- en tijdelijke bestanden
 .DS_Store
 Thumbs.db
 node_modules/
@@ -9,28 +9,37 @@ node_modules/
 *.swp
 *.swo
 
-# Uitsluiten van specifieke mappen buiten het project
-/Application Data/
-/Cookies/
-/Documents/
-/Downloads/
-/Favorites/
-/Links/
-/Music/
-/Videos/
-/OneDrive/
-/Saved Games/
-/Searches/
-/anaconda3/
-/iCloudDrive/
-/iCloudPhotos/
+# Specifieke Windows-mappen
+Application Data/
+Cookies/
+Local Settings/
+Mijn documenten/
+NetHood/
+Netwerkprinteromgeving/
+Recent/
+SendTo/
+Sjablonen/
+AppData/
+Saved Games/
+Searches/
 
-# Uitsluiten van tijdelijke en systeemgerelateerde bestanden
-NTUSER.*
-desktop.ini
-*.url
-*.regtrans-ms
+# OneDrive bestanden
+OneDrive/
 
-# Frontend- en backend-specifieke mappen
+# Anaconda, iCloud, VirtualBox en andere mappen
+.anaconda/
+.docker/
+.iCloudDrive/
+.VirtualBox/
+
+# Project-specifieke mappen
 camping-platform-frontend/node_modules/
 CampingPlatformAPI/node_modules/
+
+# Ongebruikte bestanden
+*.xlsx
+*.docx
+*.pptx
+*.url
+*.regtrans-ms
+*.ini
