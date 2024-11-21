@@ -1,0 +1,36 @@
+# Uitsluiten van systeem- en tijdelijke bestanden
+.DS_Store
+Thumbs.db
+node_modules/
+.vscode/
+*.log
+*.tmp
+*.lock
+*.swp
+*.swo
+
+# Uitsluiten van specifieke mappen buiten het project
+/Application Data/
+/Cookies/
+/Documents/
+/Downloads/
+/Favorites/
+/Links/
+/Music/
+/Videos/
+/OneDrive/
+/Saved Games/
+/Searches/
+/anaconda3/
+/iCloudDrive/
+/iCloudPhotos/
+
+# Uitsluiten van tijdelijke en systeemgerelateerde bestanden
+NTUSER.*
+desktop.ini
+*.url
+*.regtrans-ms
+
+# Frontend- en backend-specifieke mappen
+camping-platform-frontend/node_modules/
+CampingPlatformAPI/node_modules/
