@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <h1>Camping Platform</h1>
+      <h1>AirSnS</h1>
       <nav>
         <button @click="currentView = 'HomePage'">Home</button>
         <button @click="currentView = 'LoginPage'">Login</button>
